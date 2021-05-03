@@ -12,7 +12,7 @@ library(readr)
 setwd("!!!!")
 
 
-#load in all the individual datasets
+#load all the individual datasets
 a<-fread("__af_afr_1820_slave_1982_eltis_havana_paris_foot.dta.csv")
 a$databaseID=1
 a$databaseBeschrijving="Slave_Cuba_1820_eltis"
