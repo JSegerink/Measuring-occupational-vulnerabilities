@@ -208,7 +208,7 @@ ff$databaseBeschrijving="Prison_UK_Wandsworth_prison_1800"
 combined_database<-rbindlist(list(g, f, y, bb, c, x, k, m, o, v, dd, w, aa), fill=TRUE)
 
 
-#remove unnessecary variables and datasets without data on occupation
+#remove unnecessary variables and datasets without data on occupation
 cln_c_db <- subset(combined_database, select = c(databaseID, databaseBeschrijving, occ))
 
 
